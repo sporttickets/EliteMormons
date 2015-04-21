@@ -28,13 +28,21 @@ def game():
 		print (" 	when you walk over to the old man somone offers you a delish looking of coco Looks very DELISH. do you take this coco or go talk to the old man")
 		time.sleep(3)
 
-	answer2 = input("Drink Or Talk").lower()
+	answer2 = input("Drink or talk").lower()
+	import time
 	if answer2 == "drink":
 		print ("	You Grab that Delish looking of coco and you taste it and you notice it is very sweat and you enjoy it to much ITS TO DELISH TO SWEET o no ")
 		time.sleep(3)
+
 		print ("you passed out and you woke up and you can't rember your name..")
 	elif answer2 == "talk":
-		print ("hi")
+		print ("Hi "+name+" What are you doing here you looked like you hit your head hard on that fall -_-")
+	print ("what fall i don't rember a fall what are you talking about and why didin't i drink that dleish looking coco i mean it probs better anything you have to say right now")
+	time.sleep(3)
+	print ("I don't like this becuase im thirsty and cold...")
+	print ("Oldman: wtf its 101 tempture in this chicken.")
+	fall = input("What do you know about the fal ffs -_-")
+	print (""+fall+"")
 	elif answer == "Right":
 		print ("Right")
 	else:
