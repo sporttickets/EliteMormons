@@ -27,8 +27,10 @@ def game():
 
 		print (" 	when you walk over to the old man somone offers you a delish looking of coco Looks very DELISH. do you take this coco or go talk to the old man")
 		time.sleep(3)
+	elif answer == "right":
+		print ("not done yet fggit")
 
-	answer2 = input("Drink Or Talk").lower()
+	answer2 = input("Drink or Talk").lower()
 	if answer2 == "drink":
 		print ("	You Grab that Delish looking of coco and you taste it and you notice it is very sweat and you enjoy it to much ITS TO DELISH TO SWEET o no ")
 		time.sleep(3)
