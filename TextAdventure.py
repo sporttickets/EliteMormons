@@ -1,47 +1,44 @@
-def game():
-	print ("Hello")
-	import time
-	time.sleep(3)
+import sys
+from time import sleep
 
-	name = input("What is your name")
-	print ("Welcome, "+name+"")
-	time.sleep(3)
+def typewrite(str):
+    import sys
+    from time import sleep
 
-	print (""+name+" You just woke up. Im suprised to see that you can rember your name.") 
-	time.sleep(3) 
-	print ("Hello By the way im Alfred You look like you hit your head hard on that fall")
-	time.sleep(3)
+    for char in str:
+        sleep(0.1)
+        sys.stdout.write(char)
+        sys.stdout.flush()
 
-	print ("Alright i will be leaving you good luck "+name+"")
-	time.sleep(5)
+import time
+time.sleep(3)
+typewrite("You just fell on the ground from the tree you hit your hard really hard... What is your name?")
+name = raw_input("	What is your name?	")
+#quest = raw_input("What is your quest?	")
+#color = raw_input("What is your favorite color?	")
 
-	print (""+name+" There is a giant tree with two Doors A left Door, and a right Door pick on")
-
-	answer = input("left Or the Right ").lower()
-	if answer == "left":
-		print ("	You go to the door and open it slowly and you smell and odor of wizard ...You see people all around but one in particular is looking at you with a face of happines")
-		time.sleep(4)
-
-		print (""+name+"? 	Glad you could make it good boy come over here and sit down with me")
-		time.sleep(3)
-
-		print (" 	when you walk over to the old man somone offers you a delish looking of coco Looks very DELISH. do you take this coco or go talk to the old man")
-		time.sleep(3)
-	elif answer == "right":
-		print ("not done yet fggit")
-
-	answer2 = input("Drink or Talk").lower()
-	if answer2 == "drink":
-		print ("	You Grab that Delish looking of coco and you taste it and you notice it is very sweat and you enjoy it to much ITS TO DELISH TO SWEET o no ")
-		time.sleep(3)
-		print ("you passed out and you woke up and you can't rember your name..")
-	elif answer2 == "talk":
-		print ("hi")
-	elif answer == "Right":
-		print ("Right")
-	else:
-		print ("that was not an option")
+#typewrite"Ah, so your name is {}, your quest is %s, " \
+#and your favorite color is %s." % (name, quest, color)
+typewrite("Ah, so your name is {}".format(name))
+time.sleep(1)
 
 
+typewrite("\n{} You just woke up. Im suprised to see that you can rember your name.".format(name))
+time.sleep(1)
 
-game()
+typewrite("Hello By the way im Alfred You look like you hit your head hard on that fall")
+time.sleep(1)
+
+typewrite("Alright i will be leaving you good luck {} ".format(name))
+time.sleep(1)
+
+typewrite(" NARRATOR:{}. There is a giant tree with two Doors A left Door, and a right Door pick on".format(name))
+option1 = raw_input("	Left or the right door\n").lower()
+if option1 == "left":
+	typewrite("You go to the door and open it slowly and you smell and odor of wizard ...You see people all around but one in particular is looking at you with a face of happines")
+	typewrite("You walk to the wizard but then a old handsome i MEAN HANDSOME !MAN offers a DELSIH I MEAN DELISH looking of coco do you take the coco or do you talk to the old wizard who is hot.")
+elif option1 == "right":
+	typewrite(" not done yet Fool")
+else:
+	typewrite("that was not an option")
+
