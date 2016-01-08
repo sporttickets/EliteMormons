@@ -30,8 +30,8 @@ def text():
 	if name == "kade":
 		import sticks
 	elif name =="brock":
-		import BubbMan2
 		import BubbMan
+		BubbMan.main.main()
 	sleep(.3)
 
 	typewrite("\n gleep gloop loop {}".format(name))
