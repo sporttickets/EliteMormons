@@ -28,7 +28,7 @@ def text():
 	sleep(.5)
 	name=raw_input("\nGLERB GLBO\n")
 	if name == "kade":
-		import Sticks.py
+		import sticks
 	sleep(.3)
 
 	typewrite("\n gleep gloop loop {}".format(name))
