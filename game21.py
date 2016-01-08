@@ -48,6 +48,8 @@ def red1():
 
 def bail1():
 	typewrite("You leave Your HOT wife... DUMB BUMB WANTS GUM right get it ? no you don't\n frekign beta noob")
+	typewrite("You Get lonley and go to a nice Park and sit down on a bench and read a book\n DO YOU WANT IT TO LOOP FOREVER?\n The Book is about how chicken noddle soup can improve your hp...")
+	typewrite("\n")
 
 def stay1():
 	typewrite("\nYou and Your Hunnie Pop Go to coounsling and try to work tings out....\n but it gets so boring that you starting taking coaine to spice things up a little bit\n get it SPICE things up haha jk jk")
