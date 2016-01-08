@@ -26,9 +26,12 @@ def text():
 	#print colored('hello this is my game enjoy m89', 'red')
 	
 	sleep(.5)
-	name=raw_input("\nGLERB GLBO\n")
+	name=raw_input("\nGLERB GLBO\... it translates into whats is your name kid\n")
 	if name == "kade":
 		import sticks
+	elif name =="brock":
+		import BubbMan2
+		import BubbMan
 	sleep(.3)
 
 	typewrite("\n gleep gloop loop {}".format(name))
