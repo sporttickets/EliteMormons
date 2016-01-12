@@ -31,7 +31,8 @@ def text():
 		import sticks
 	elif name =="brock":
 		import BubbMan
-		BubbMan.main.main()
+	elif name < 5:
+		import sticks
 	sleep(.3)
 
 	typewrite("\n gleep gloop loop {}".format(name))
