@@ -46,6 +46,14 @@ def text():
 def blue1():
 	typewrite("You join the blue team and they hand you a freaking hotdog...\n dont worry its a braught worst lfmao gg m8")
 	typewrite("\nYou just stand there and have no idea whats going on buts thats ok\nThen sum Butt head runs at you with a hamster FIRMLy Griped in his hands\n looks like he is on memes \n the dank kind\n")
+	typewrite("This is one meme you don't want to be on...\nTurns out you dont want to be here... you see a rocket ship and a tunnel\n")
+	blue2()
+def blue2():
+	blue2 = raw_input("Tunnel Or RocketShip").lower()
+	if blue2 == "tunnel":
+		tunnel()
+	elif blue2 == "rocketship":
+		rocket1()
 
 def red1():
 	typewrite("you go into the red arean hoping to find team8s\nbut there is only hamsters\nyout think atleast\ndont forget you have been drugges m8 pirtay m9")
@@ -97,6 +105,16 @@ def silver1():
 		stay1()
 	elif q5 == "bail":
 		bail1()
+
+def tunnel1():
+	typewrite("\nYou barley escape the crazed man...\n " + name +, "Finds the tunnel in the north west corner of the bulding")
+	typewrite("\nYou barley Fit into the slimy tunnel\nyou start to move your way down the tunnel to only find a hobbit hole\n There is a wierd creature sitting there")
+	typewrite("The creature looks at you and calls you a \n bitch")
+	creaturename = raw_input ("What will the creatures name be.")
+	typewrite("Congraulations you named the crature {}".format(creaturename))
+
+def rocket1():
+
 
 def main():
 	text()
