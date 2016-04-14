@@ -20,6 +20,15 @@ def typewrite(str):
 		sys.stdout.flush()
 
 name=raw_input("What Is Your Name?\n")
+def talk():
+	typewrite ("talk\nYou Aproach the old man and suck his eggs of wisdom")
+def explore():
+	typewrite ("explore\nYou walk around this wierd town and notice something quite odd its a tree upside down like tf\nyou crawl into the tree and start sucking eggs")
+
+def market():
+	typewrite ("market\nYou walk into a fresh foods market you notice some exotic food like hambuger heads and hotdog legs\n")
+def pub():
+	typewrite ("Pub\nYou walk into a pub that seems very clean and nice but there is gambling")
 
 def text():
 	typewrite ("\nThis is a text based game")
